@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+  </head>
+
+  <body class="font-poppins flex mx-auto justify-center items-center mt-3">
+    <div
+      class="absolute inset-0 bg-center bg-cover"
+      style="
+        background-image: url('./images/YCC1.jpg');
+        filter: blur(2px);"></div>
+
+    <main class="w-lg h-full relative">
+      <section class="bg-gray-200 shadow-lg rounded-2xl px-20 py-10">
+        <div class="text-center mb-6">
+          <h1 class="font-semibold text-3xl">Register Form</h1>
+        </div>
+        <form action="#" method="post" class="grid grid-cols-1 gap-4 overflow-hidden">
+          <div>
+            <label
+              for="name"
+              class="block text-sm font-medium text-slate-700 mb-1"
+              >Name</label
+            >
+            <input
+              class="border border-slate-400 px-3 py-2 rounded-lg w-full"
+              type="text"
+              placeholder="Your Name"
+              id="name"
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              for="email"
+              class="block text-sm font-medium text-slate-700 mb-1"
+              >Email address</label
+            >
+            <input
+              class="border border-slate-400 px-3 py-2 rounded-lg w-full"
+              type="email"
+              placeholder="Your Email"
+              id="email"
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              for="phone"
+              class="block text-sm font-medium text-slate-700 mb-1"
+              >Phone No.</label
+            >
+            <input
+              class="border border-slate-400 px-3 py-2 rounded-lg w-full"
+              type="tel"
+              placeholder="+95 9 123 456 789"
+              id="phone"
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              for="message"
+              class="block text-sm font-medium text-slate-700 mb-1"
+              >Message</label
+            >
+            <textarea
+              class="border border-slate-400 px-3 py-2 rounded-lg w-full h-full"
+              name="message"
+              placeholder="Your message..."
+              id="message"
+            ></textarea>
+          </div>
+
+          <div>
+            <button
+              class="w-full rounded-lg bg-sky-600 mt-8 hover:bg-sky-700 text-white font-medium px-4 py-2 shadow-sm transition"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
