@@ -21,13 +21,13 @@
             src="./images/nav logo.jpg"
           />
     </a>
-    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a class="mr-5 hover:text-gray-900" href="#home">Home</a>
-      <a class="mr-5 hover:text-gray-900" href="#event">Event</a>
-      <a class="mr-5 hover:text-gray-900" href="#organizer">Organizer</a>
-      <a class="mr-5 hover:text-gray-900" href="#contact">Contact</a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center text-gray-700">
+      <a class="nav" href="#home">Home</a>
+      <a class="nav" href="#event">Event</a>
+      <a class="nav" href="#organizer">Organizer</a>
+      <a class="nav" href="#contact">Contact</a>
     </nav>
-    <button onclick="window.location.href='register.html'" class="inline-flex items-center bg-blue-700 text-white border-0 py-2 px-3 focus:outline-none hover:bg-blue-800 rounded text-base mt-4 md:mt-0">Register
+    <button onclick="window.location.href='register.html'" class="inline-flex items-center bg-blue-700 text-white border-0 py-2 px-3 focus:outline-none hover:bg-blue-800 hover:scale-110 transition duration-100 rounded text-base mt-4 md:mt-0">Register
     </button>
   </div>
     </header>
@@ -59,7 +59,7 @@
               class="flex flex-col md:flex-row items-center justify-center gap-5"
             >
               <button onclick="window.location.href='register.html'"
-                class="bg-blue-700 hover:bg-blue-800 transition px-6 py-2 rounded-full font-semibold shadow"
+                class="bg-blue-700 hover:bg-blue-800 hover:scale-110 transition duration-100 px-6 py-2 rounded-full font-semibold shadow"
               >
                 Register Now
               </button>
@@ -72,6 +72,7 @@
       </section>
     </div>
 
+    <!-- About expo -->
     <section class="relative bg-white text-gray-800 body-font pt-20 pb-20" id="home">
       <div
         class="container mx-auto flex px-5 py-5 items-center justify-center flex-col text-center lg:w-2/3"
@@ -97,7 +98,7 @@
         <div class="container w-full flex flex-wrap justify-center gap-20">
           <!-- Auto Brands -->
           <div
-            class="flex flex-col items-center bg-slate-100 p-6 rounded-xl shadow hover:shadow-lg transition cursor-pointer w-48"
+            class="expo-box"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +116,7 @@
 
           <!-- Spare Parts -->
           <div
-            class="flex flex-col items-center bg-slate-100 p-6 rounded-xl shadow hover:shadow-lg transition cursor-pointer w-48"
+            class="expo-box"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +133,7 @@
 
           <!-- EV Innovation -->
           <div
-            class="flex flex-col items-center bg-slate-100 p-6 rounded-xl shadow hover:shadow-lg transition cursor-pointer w-48"
+            class="expo-box"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -151,6 +152,7 @@
       </div>
     </section>
 
+    <!-- About event -->
     <section class="text-gray-600 body-font bg-gray-200" id="event">
       <div
         class="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center"
@@ -193,6 +195,7 @@
       </div>
     </section>
 
+    <!-- Organizers -->
     <section
       class="bg-white max-w-full mx-auto p-8 md:p-12 rounded-lg shadow-lg"
       id="organizer"
@@ -236,6 +239,7 @@
       </p>
     </section>
 
+    <!-- Contact -->
     <section class="bg-gray-200 py-12" id="contact">
       <div class="container mx-auto px-6 lg:px-20">
         <div
@@ -314,6 +318,7 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-gray-900 text-white">
   <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
 
